@@ -2,7 +2,7 @@
 
 ## Introduction
 
-OASIS leverages a synergistic two-tiered pipeline: a dynamic filtering stage with an optimized bucket-cell architecture first screens for significant flows, followed by a log-binned center array structure that tracks their hierarchical stability. To ensure robustness under dynamic traffic, we introduce adaptive stability calibration to counteract cluster evolution, and an optional inline Coefficient of Variation estimation module to profile granular temporal volatility.
+TACKS leverages a synergistic two-tiered pipeline: a dynamic filtering stage with an optimized bucket-cell architecture first screens for significant flows, followed by a log-binned center array structure that tracks their hierarchical stability. To ensure robustness under dynamic traffic, we introduce adaptive stability calibration to counteract cluster evolution, and an optional inline Coefficient of Variation estimation module to profile granular temporal volatility.
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ cmake --build . -j $(nproc)
 Initialize each benchmark class in main.cpp to test the corresponding algorithm:
 
 * **BenchMark**: Corresponds to PSF
-* **BenchMark2**: Corresponds to OASIS
+* **BenchMark2**: Corresponds to TACKS
 * **BenchMark3**: Corresponds to Baseline
 * **BenchMark4**: Corresponds to DS-Sketch
 * **BenchMarkKM**: Corresponds to KMeans+
